@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Eventos de tiempo</title>
+</head>
+<body>
+    <button id="btn-iniciar">Iniciar</button>
+<script>
+function saludo () {
+    alert(' "Que bueno esta este curso!!"');
+}
+document.getElementById('btn-iniciar').addEventListener('click' , function () {setInterval(saludo , 200);})
+</script>
+</body>
+</html>

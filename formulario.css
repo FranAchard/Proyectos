@@ -1,0 +1,82 @@
+*{
+	    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    moz-box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+body{
+	font-family:arial;
+	margin:auto;
+    padding:auto;
+    background:#7288CE;
+}
+.form{
+    font-size:18px;
+	position:relative;
+	left:600px;
+	width:500px;
+	height:auto;
+	border:1.5px solid black;
+	background:#A3A4A7;
+}
+.primero{
+font-size:20px;
+}
+#nombre{
+	width:250px;
+	height:100px;
+}
+#apellido{
+	width:250px;
+	height:100px;
+}
+#correo{
+	position:relative;
+	left:12px;
+	width:250px;
+	height:100px;
+}
+.form .primera{
+	font-size:25px ;
+	color:#0F7996;
+}
+.form  .segunda{
+	font-size:25px;
+	position:relative;
+	    left:200px;
+		color:#F164FF;
+}
+#fem{
+
+	position:relative;
+	    left:200px;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.error{
+	display:none;
+	background:red;
+	color:white;
+	width:auto;
+	height:auto;
+}
+#btn{
+	position:relative;
+	left:150px;
+	width:180px;
+	height:80px;
+	font-size:30px;
+	border:3px solid black;
+}
+#btn:hover{
+border:3px solid red;
+color:white;
+background:black;
+cursor:pointer;
+ }

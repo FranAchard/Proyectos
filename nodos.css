@@ -1,0 +1,25 @@
+body{
+	font-family:arial;
+	margin:0px;
+	padding:0px;
+	font-size:30px;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	moz-box-sizing:border-box;
+}
+.contenido{
+
+	position:relative;
+	left:500px;
+	border:2px solid black;
+	text-align:center;
+	width:500px	;
+	height:auto;
+	background:#1E877E;
+}
+.caja{
+    border:2px solid black;
+}
+.letra {
+	font-style: italic
+}

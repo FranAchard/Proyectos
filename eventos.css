@@ -1,0 +1,43 @@
+body{
+	background:#72CEC6;
+    box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+     moz-box-sizing:border-box;
+     font-family:arial;
+     font-size:30px;
+}
+form{
+	position:relative;
+	left:500px;
+	background:black;
+	text-align:center;
+    width:400px;
+    height:auto;
+    margin:0px;
+    padding:0px;
+    border:1.5px solid black;
+}
+#nombre{
+	font-size:20px;
+	border:2px solid black;
+width:200px;
+height:80px;
+background:white;
+padding:20px;
+margin:3px;
+}
+#contraseña{
+		font-size:20px;
+	border:2px solid black;
+width:200px;
+height:80px;
+background:white;
+padding:20px;
+margin:3px;
+}
+#btn{
+	border:2px solid black;
+	width:100px;
+	height:50px;
+	cursor:pointer;
+}
